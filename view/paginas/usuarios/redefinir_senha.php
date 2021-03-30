@@ -4,7 +4,6 @@
     if(!isset($_SESSION['user'])){
         exit(0);
     }
-    var_dump($_SESSION['user']);
     ?>
     <h1><?php echo $_SESSION['user']["nome"]?> </h1>
     <p>Este deve ser o seu primeiro acesso, portanto defina uma nova senha.</p>

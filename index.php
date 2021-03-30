@@ -17,7 +17,10 @@ if(isset($_GET['path'])){
     
     $controller=new $controller();
     if(isset($path[1])){
-
+        if(isset($path[2]))
+            $controller->{$path[1]}($path[2]);
+        else
+            $controller->{$path[1]}();
     }else{
         $controller->index();
     }
