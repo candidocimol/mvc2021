@@ -8,6 +8,6 @@
 class URLAmigavel {
 
     public function index(){
-        include PATH."/view/paginas/contato/index.php";
+        include PATH."/view/paginas/url_amigavel/index.php";
     }
 }

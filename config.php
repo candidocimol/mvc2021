@@ -6,7 +6,7 @@
  /**Caminho da pasta raiz */
  define('PATH', dirname(__FILE__));
  /**Caminho URL página inical */
- define('HOME_URI', 'http://127.0.0.1/CIMOL/mvc/');
+ define('HOME_URI', 'http://127.0.0.1/CIMOL/mvc2021/');
  define('IMAGE_URI', HOME_URI.'view/imagens/');
 
 
