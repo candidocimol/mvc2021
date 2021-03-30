@@ -3,7 +3,7 @@
     include PATH.'/view/template/nav.php';
     include PATH.'/view/template/msg.php';
 ?>
-<maim>
+<main>
     <h1>Página inicial</h1>
 
 </main>
